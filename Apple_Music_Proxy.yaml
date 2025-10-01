@@ -1,0 +1,44 @@
+# NAME: Apple_Music_Proxy
+# AUTHOR: zhcnChatbot
+# REPO: https://github.com/K3vinStudy/clash-rules-AppleMusicSingapore
+# UPDATED: 2025-10-02
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 24
+# TOTAL: 24
+payload:
+# apple music 1 等 apple 直播
+  - DOMAIN-SUFFIX,radio.itunes.apple.com
+  - DOMAIN-SUFFIX,radio-activity.itunes.apple.com
+  - DOMAIN-SUFFIX,itsliveradio.apple.com
+
+# 新加坡本地电台(tunein)，请使用新加坡IP
+  - DOMAIN-SUFFIX,pls.tunein.com
+  - DOMAIN-SUFFIX,playerservices.streamtheworld.com
+  - DOMAIN-SUFFIX,live.streamtheworld.com
+  - DOMAIN-SUFFIX,provisioning.streamtheworld.com
+
+
+# BBC Singapore & International Radio，请使用新加坡IP
+
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbci.co.uk
+  - DOMAIN-SUFFIX,bbcmedia.co.uk
+  - DOMAIN-SUFFIX,gb25.streamgates.net
+  - DOMAIN-SUFFIX,mediaserviceslive.akamaized.net
+  - DOMAIN-SUFFIX,rthkradio3-live.akamaized.net
+  - DOMAIN-SUFFIX,rthkradio3-lh.akamaihd.net
+  - DOMAIN-SUFFIX,icestreaming.rai.it
+  - DOMAIN-SUFFIX,flumotion.com
+  - DOMAIN-SUFFIX,stream.bigfm.de
+  - DOMAIN-SUFFIX,audiotainment-sw.streamabc.net
+  - DOMAIN-SUFFIX,msvdn.net
+  - DOMAIN-SUFFIX,icecast.unitedradio.it
+  - DOMAIN-SUFFIX,zeno.fm
+  - DOMAIN-SUFFIX,as-hls-ww-live.akamaized.net
+  - DOMAIN-SUFFIX,noasrv.caster.fm
+
+# 资料库中自己上传的歌曲
+
+  - DOMAIN-SUFFIX,blobstore.apple.com
+
+
