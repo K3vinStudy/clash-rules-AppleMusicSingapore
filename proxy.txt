@@ -1,7 +1,7 @@
 # 这部分推荐代理
 
 # apple music 1 等 apple 直播
-radio.itunes.apple.com
+domain-suffix,radio.itunes.apple.com
 radio-activity.itunes.apple.com
 itsliveradio.apple.com
 
@@ -34,3 +34,4 @@ noasrv.caster.fm
 # 资料库中自己上传的歌曲
 
 blobstore.apple.com
+
