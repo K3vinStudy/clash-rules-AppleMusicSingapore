@@ -1,0 +1,28 @@
+# NAME: Apple_Music_Direct
+# AUTHOR: zhcnChatbot
+# REPO: https://github.com/K3vinStudy/clash-rules-AppleMusicSingapore
+# UPDATED: 2025-10-02
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 10
+# TOTAL: 10
+payload:
+#初始化
+  - DOMAIN-SUFFIX,init.itunes.apple.com
+
+#搜索相关
+  - DOMAIN-SUFFIX,amp-api.music.apple.com
+
+# 音乐和MV播放
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com
+  - DOMAIN-SUFFIX,play.itunes.apple.com
+  - DOMAIN-SUFFIX,aod.itunes.apple.com
+
+# 不知道是做什么用的
+  - DOMAIN-SUFFIX,client-api.itunes.apple.com
+  - DOMAIN-SUFFIX,se2.itunes.apple.com
+  - DOMAIN-SUFFIX,xp.apple.com
+
+# 资料库更新
+  - DOMAIN-SUFFIX,librarydaap.itunes.apple.com
+
+  - DOMAIN-SUFFIX,sync.itunes.apple.com
